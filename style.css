@@ -16,13 +16,17 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 28px;
-/* identical to box height, or 175% */
 text-align: center;
 letter-spacing: 0.2px;
-/* text */
 color: #252B42;
 }
-.li_S{
+hr{
+    border: 3px solid #E4E4E4;
+    margin-bottom: 72px;
+}
+.li_a:hover{
+font-weight: 700;
+    cursor: pointer;
 color: #FA4A0C;
 }
 .section-1{
@@ -112,7 +116,7 @@ letter-spacing: 0.1px;
 color: #000000;
 }
 .create{
-margin-top: 350px;
+margin-top: 300px;
 }
 .acc{
 font-family: 'Montserrat';
@@ -157,7 +161,7 @@ margin-top: 140px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 45px;
 line-height: 57px;
 /* identical to box height, or 142% */
 text-align: center;
@@ -224,7 +228,20 @@ letter-spacing: 0.1px;
 color: #5C5C5C;
 margin-top: 60px;
 }
-
+.copy_a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+.copy:hover{
+    color: #FA4A0C;
+}
 @media (max-width: 575px) {
     .logo{
         width: 104px;
@@ -232,6 +249,10 @@ margin-top: 60px;
     }
 .section-1{
 background: none;
+}.like
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
 }
 .food{
 margin-top: 10px;
@@ -250,7 +271,7 @@ color: #737373;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 36px;
+font-size: 30px;
 line-height: 42px;
 /* or 118% */
 
@@ -265,7 +286,7 @@ color: #252B42;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 28px;
 line-height: 38px;
 /* or 158% */
 text-align: center;
@@ -347,5 +368,9 @@ text-align: center;
 }
 .copy{
     text-align: center;
+}
+.human{
+    font-size: 32px;
+    color: #BDBDBD;
 }
 }
