@@ -1,0 +1,350 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.list{
+margin-top: 60px;
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+.li_a{
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: 0.2px;
+/* text */
+color: #252B42;
+}
+.li_S{
+color: #FA4A0C;
+}
+.section-1{
+margin-top: 30px;
+background: url(img/Rectangle\ 48.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.pop{
+text-align: center;
+}
+.kfc{
+margin-left: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: 0.1px;
+color: #FFFFFF;
+background: #FA4A0C;
+box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+border-radius: 30px; 
+padding: 10px 60px;
+border: none;
+}
+.kfc:hover{
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(.jpg);
+    border-radius: 30px;
+}
+.food{
+margin-top: 70px;
+margin-bottom: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.1px;
+color: #F7F7F7;
+}
+.like{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+/* or 138% */
+/* text-align: center; */
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+.down{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* identical to box height, or 158% */
+text-align: center;
+letter-spacing: 0.2px;
+color: #F7F7F7;
+margin-top: 25px;
+}
+.burger{
+margin-top: 70px;
+margin-bottom: 150px;
+}
+.for{
+text-align: center;
+margin-top: -250px;
+}
+.how{
+text-align: center;
+}
+.app{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 36px;
+/* identical to box height, or 82% */
+letter-spacing: 0.1px;
+color: #000000;
+}
+.create{
+margin-top: 350px;
+}
+.acc{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: 0.1px;
+color: #FA4A0C;
+}
+.start{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* or 142% */
+letter-spacing: 0.2px;
+/* text */
+color: #252B42;
+}
+.frog{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* or 158% */
+letter-spacing: 0.2px;
+/* second text */
+color: #737373;
+}
+.section-4{
+background: url(img/Rectangle\ 47.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 516px;
+}
+.raketa{
+margin-top: 140px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+/* identical to box height, or 142% */
+text-align: center;
+letter-spacing: 0.2px;
+/* Light text */
+color: #FFFFFF;
+}
+.human{
+margin-top: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* identical to box height, or 158% */
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+.key{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: 0.2px;
+/* Light text */
+color: #FFFFFF;
+padding: 18px 30px;
+border: none;
+background: #FA4A0C;
+border-radius: 10px;
+ margin-left: 30px;
+}
+.key:hover{
+    background: linear-gradient(0deg, rgba(37, 43, 66, 0.4), rgba(37, 43, 66, 0.4)), url(.jpg);
+    border: 1px solid white;
+}
+.join{
+    text-align: center;
+}
+.wow{
+    margin-top: 60px;
+    margin-bottom: 130px;
+}
+footer{
+    margin-top: 30px;
+}
+.insta{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+text-align: right;
+letter-spacing: 0.1px;
+color: #5C5C5C;
+margin-top: 60px;
+}
+
+@media (max-width: 575px) {
+    .logo{
+        width: 104px;
+    height: 51.37px;
+    }
+.section-1{
+background: none;
+}
+.food{
+margin-top: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.1px;
+/* second text */
+color: #737373;
+}
+.like{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+/* or 118% */
+
+/* text-align: center; */
+letter-spacing: 0.2px;
+
+/* text */
+
+color: #252B42;
+}
+.down{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* or 158% */
+text-align: center;
+letter-spacing: 0.2px;
+/* second text */
+color: #737373;
+}
+.kfc{
+margin-left: 0;
+margin-top: 30px;
+}
+.you{
+width: 100%;
+}
+.for{
+margin-top: 0;
+}
+.burger{
+margin: 0;
+}
+.app{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #000000;
+}
+.zero{
+width: 100%;
+}
+.create{
+margin-top: 0;
+}
+.acc{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #FA4A0C;
+}
+.start {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+.frog {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 38px;
+letter-spacing: 0.2px;
+color: #737373;
+text-align: center;
+}
+.section-4{
+    background: #252B42;
+    height: 564px;
+}
+.insta{
+   justify-content: space-around;
+}
+.copy{
+    text-align: center;
+}
+}
